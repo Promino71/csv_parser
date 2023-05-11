@@ -1,0 +1,14 @@
+[package]
+name = "csv_parser"
+version = "0.1.0"
+authors = ["Promin <promino71@protonmail.com>"]
+homepage = "https://github.com/csv_parser"
+repository = "https://github.com/promino71/csv_parser"
+description = "It's not parser he-he. It's sorter :)"
+keywords = ["csv"]
+edition = "2021"
+
+[dependencies]
+clap = {version = "4.2.7", features = ["derive"]}
+csv = "1.2.1"
+
